@@ -39,11 +39,11 @@ A developer commits code to a repository. AI-enhanced tooling then:
 
 ```mermaid
 flowchart TD
-  A[Developer pushes code to GitHub] --> B[AI detects language/framework]
-  B --> C[AI suggests base image (e.g., python:3.11)]
-  C --> D[AI generates Dockerfile via prompt/intent]
+  A[Developer pushes code to GitHub] --> B[AI detects language or framework]
+  B --> C[AI suggests base image like python:3.11]
+  C --> D[AI generates Dockerfile via prompt or analysis]
   D --> E[CI/CD builds image using Docker]
-  E --> F[Image is pushed to registry (e.g., GHCR, Docker Hub)]
+  E --> F[Image is pushed to registry like GHCR or Docker Hub]
   F --> G[AI triggers deployment workflow]
   G --> H[Image runs in containerized environment]
 ```
@@ -149,3 +149,4 @@ With tools like GitHub Copilot, Azure Pipelines, and GitHub Actions, developers 
 ---
 
 > 💬 Questions? PRs welcome. Want to contribute your AI + Docker use case? [Open an issue](https://github.com/your-repo/issues).
+
